@@ -17,6 +17,12 @@
         <DebugSymbols>true</DebugSymbols>
         <DebugType>embedded</DebugType>
         <PathMap>$(SolutionDir)=.</PathMap>
+        <OutputPath>bin\Release\Mobile</OutputPath>
+        <EnableModDeploy>false</EnableModDeploy>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+        <OutputPath>bin\Debug\Mobile</OutputPath>
+        <EnableModDeploy>false</EnableModDeploy>
     </PropertyGroup>
     <PropertyGroup>
         <ModFolderName>ConvenientChestsUnofficial</ModFolderName>

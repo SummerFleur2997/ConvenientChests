@@ -92,13 +92,13 @@ internal class ChestOverlay : Widget
     {
         var delta = Chest.SpecialChestType switch
         {
-            Chest.SpecialChestTypes.BigChest => -128,
+            Chest.SpecialChestTypes.BigChest => -140,
             Chest.SpecialChestTypes.MiniShippingBin => -34,
             Chest.SpecialChestTypes.JunimoChest => -34,
             _ => Chest.Name switch
             {
                 "__Auto_!_Eats__" => -34,
-                _ => -112
+                _ => -140
             }
         };
 
