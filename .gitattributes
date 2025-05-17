@@ -1,0 +1,3 @@
+.\ConvenientChests\Framework\UserInterfacService\ChestOverlay.cs merge=ours
+.\ConvenientChests\Framework\UserInterfacService\InventoryOverlay.cs merge=ours
+.\ConvenientChests\ConvenientChests.csproj merge=ours
